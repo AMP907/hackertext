@@ -17,6 +17,6 @@ for i,x in target:
     eraseLine() # Write to the same line instead of spewing new lines
     stdout.write(output)
     stdout.flushFile() # Force writing to console every iteration
-    sleep(3)
+    sleep(2) # Wait 2ms between runs so it doesn't finish instantly
 showCursor()
 echo() # Add new line at the end of execution to keep the terminal tidy
